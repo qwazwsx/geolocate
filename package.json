@@ -1,0 +1,29 @@
+{
+  "name": "geolocate",
+  "version": "1.0.0",
+  "description": "finds your geographical location based on nearby AP's",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-wifi": "^2.0.4",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "geolocate": "./index.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwazwsx/geolocate.git"
+  },
+  "author": "qwazwsx",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/qwazwsx/geolocate/issues"
+  },
+  "homepage": "https://github.com/qwazwsx/geolocate#readme"
+}
